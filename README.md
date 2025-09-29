@@ -1,7 +1,6 @@
 # 📊Credit Card Transaction & Customer Report – Power BI Dashboard
-
-🔹 **Project Objective**
 ```markdown
+🔹 **Project Objective**
 	- The objective of this project is to analyze credit card transactions and customer behavior to generate actionable business insights. The dashboard helps financial institutions and stakeholders:
 	- Track revenue, transactions, and interest earned.
 	- Understand customer demographics (age, gender, education, job, income groups).
@@ -9,7 +8,6 @@
 	- Monitor weekly and quarterly revenue trends for performance tracking.
 
 🔹 **Steps Followed**
-```markdown
 	- Data Preparation :
 		- Gathered data from Credit Card Transactions and Customer Details tables.
 		- Cleaned and transformed raw data using Power Query in Power BI.
