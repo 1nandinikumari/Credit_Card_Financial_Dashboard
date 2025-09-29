@@ -1,6 +1,7 @@
 # 📊Credit Card Transaction & Customer Report – Power BI Dashboard
 ```markdown
-🔹 **Project Objective**
+
+🔹 ***Project Objective***
 	- The objective of this project is to analyze credit card transactions and customer behavior to generate actionable business insights. The dashboard helps financial institutions and stakeholders:
 	- Track revenue, transactions, and interest earned.
 	- Understand customer demographics (age, gender, education, job, income groups).
@@ -68,7 +69,6 @@
 		        credit_card[Week_num2]=MAX(credit_card[Week_num2])-1))
 
 🔹 **Insights Generated**
-```markdown
 	- From the dashboards, the following key insights were observed:
 	- Revenue Performance:
 		- Total Revenue generated: 23M.
@@ -85,7 +85,6 @@
 		- Week-on-week analysis shows growth opportunities and revenue dips.
 
 🔹 **Action Items**
-```markdown
 	- Based on insights, the following actions are recommended:
 		- Customer Retention – Focus marketing campaigns on high-value customer groups (30–50 yrs, graduates, high-income).
 		- Product Strategy – Promote Platinum and Gold cards to maximize revenue.
@@ -94,13 +93,11 @@
 		- Seasonal Planning – Leverage Q2 and Q4 peaks with targeted offers and cashback schemes.
 
 🔹 **Tools & Technologies**
-```markdown
 	- Power BI – Data cleaning, modeling, DAX measures, and visualization.
 	- DAX (Data Analysis Expressions) – Custom calculations and measures.
 	- SQL – Used for initial data preparation (views & queries).
 
 🔹 **Final Dashboard Preview**
-```markdown
 	- Credit Card Transaction Report – Transaction KPIs, revenue by expenditure, card usage, quarterly & weekly analysis.
 	- Credit Card Customer Report – Customer demographics, income & education segmentation, satisfaction score analysis.
 
