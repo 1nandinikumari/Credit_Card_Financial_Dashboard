@@ -1,14 +1,14 @@
 # 📊Credit Card Transaction & Customer Report – Power BI Dashboard
 ```markdown
 
-🔹 ## Project Objective
+🔹 Project Objective
 	- The objective of this project is to analyze credit card transactions and customer behavior to generate actionable business insights. The dashboard helps financial institutions and stakeholders:
 	- Track revenue, transactions, and interest earned.
 	- Understand customer demographics (age, gender, education, job, income groups).
 	- Identify credit card usage patterns by category, expenditure type, and customer satisfaction.
 	- Monitor weekly and quarterly revenue trends for performance tracking.
 
-🔹 **Steps Followed**
+🔹 Steps Followed
 	- Data Preparation :
 		- Gathered data from Credit Card Transactions and Customer Details tables.
 		- Cleaned and transformed raw data using Power Query in Power BI.
@@ -25,7 +25,7 @@
 			- Credit Card Customer Report – Focused on customer demographics and segmentation.
 		- Used a mix of charts (bar, line, donut, cards, slicers) for better visualization.
 
-🔹 **DAX Formulas Used**
+🔹 DAX Formulas Used
 
 	Age Group Categorization :
 
@@ -68,7 +68,7 @@
 		        ALL(credit_card),
 		        credit_card[Week_num2]=MAX(credit_card[Week_num2])-1))
 
-🔹 **Insights Generated**
+🔹 Insights Generated
 	- From the dashboards, the following key insights were observed:
 	- Revenue Performance:
 		- Total Revenue generated: 23M.
@@ -84,7 +84,7 @@
 		- Seasonal spikes in Q2 and Q4 revenues.
 		- Week-on-week analysis shows growth opportunities and revenue dips.
 
-🔹 **Action Items**
+🔹 Action Items
 	- Based on insights, the following actions are recommended:
 		- Customer Retention – Focus marketing campaigns on high-value customer groups (30–50 yrs, graduates, high-income).
 		- Product Strategy – Promote Platinum and Gold cards to maximize revenue.
@@ -92,14 +92,14 @@
 		- Customer Satisfaction – Track satisfaction scores and reduce delinquent accounts to improve loyalty.
 		- Seasonal Planning – Leverage Q2 and Q4 peaks with targeted offers and cashback schemes.
 
-🔹 **Tools & Technologies**
+🔹 Tools & Technologies
 	- Power BI – Data cleaning, modeling, DAX measures, and visualization.
 	- DAX (Data Analysis Expressions) – Custom calculations and measures.
 	- SQL – Used for initial data preparation (views & queries).
 
-🔹 **Final Dashboard Preview**
+🔹 Final Dashboard Preview
 	- Credit Card Transaction Report – Transaction KPIs, revenue by expenditure, card usage, quarterly & weekly analysis.
 	- Credit Card Customer Report – Customer demographics, income & education segmentation, satisfaction score analysis.
 
-***✨ This project demonstrates how business intelligence dashboards can convert raw financial data into meaningful insights that support data-driven decision-making.***
+ ✨ This project demonstrates how business intelligence dashboards can convert raw financial data into meaningful insights that support data-driven decision-making.
 
