@@ -9,6 +9,7 @@
 	- Monitor weekly and quarterly revenue trends for performance tracking.
 
 🔹 **Steps Followed**
+```markdown
 	- Data Preparation :
 		- Gathered data from Credit Card Transactions and Customer Details tables.
 		- Cleaned and transformed raw data using Power Query in Power BI.
@@ -69,6 +70,7 @@
 		        credit_card[Week_num2]=MAX(credit_card[Week_num2])-1))
 
 🔹 **Insights Generated**
+```markdown
 	- From the dashboards, the following key insights were observed:
 	- Revenue Performance:
 		- Total Revenue generated: 23M.
@@ -85,6 +87,7 @@
 		- Week-on-week analysis shows growth opportunities and revenue dips.
 
 🔹 **Action Items**
+```markdown
 	- Based on insights, the following actions are recommended:
 		- Customer Retention – Focus marketing campaigns on high-value customer groups (30–50 yrs, graduates, high-income).
 		- Product Strategy – Promote Platinum and Gold cards to maximize revenue.
@@ -93,11 +96,13 @@
 		- Seasonal Planning – Leverage Q2 and Q4 peaks with targeted offers and cashback schemes.
 
 🔹 **Tools & Technologies**
+```markdown
 	- Power BI – Data cleaning, modeling, DAX measures, and visualization.
 	- DAX (Data Analysis Expressions) – Custom calculations and measures.
 	- SQL – Used for initial data preparation (views & queries).
 
 🔹 **Final Dashboard Preview**
+```markdown
 	- Credit Card Transaction Report – Transaction KPIs, revenue by expenditure, card usage, quarterly & weekly analysis.
 	- Credit Card Customer Report – Customer demographics, income & education segmentation, satisfaction score analysis.
 
