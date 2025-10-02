@@ -7,6 +7,9 @@
 	- Identify credit card usage patterns by category, expenditure type, and customer satisfaction.
 	- Monitor weekly and quarterly revenue trends for performance tracking.
 
+	---
+	
+
 🔹 Steps Followed
 	- Data Preparation :
 		- Gathered data from Credit Card Transactions and Customer Details tables.
