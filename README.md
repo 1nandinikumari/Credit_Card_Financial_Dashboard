@@ -82,62 +82,57 @@ Previous_Week_Revenue = CALCULATE(
         credit_card[Week_num2] = MAX(credit_card[Week_num2]) - 1
     )
 )
-🔹 Insights Generated
+```
+---
+
+## 🔹 Insights Generated
+
 From the dashboards, the following key insights were observed:
 
-Revenue Performance
-Total Revenue generated: 23M
+### **Revenue Performance**
+- Total Revenue generated: **23M**
+- Total Transactions: **19M**, with **3.32M interest** and **278K transaction count**
 
-Total Transactions: 19M, with 3.32M interest and 278K transaction count
+### **Customer Segmentation**
+- Majority of revenue is generated from **middle-aged groups (30–50 yrs)**.
+- **High-income groups** and **graduates** contribute significantly to revenue.
+- **Male customers** dominate transactions compared to female customers.
 
-Customer Segmentation
-Majority of revenue is generated from middle-aged groups (30–50 yrs).
+### **Credit Card Usage**
+- **Gold and Platinum card categories** contribute higher revenue.
+- **Travel and grocery expenditures** are top contributors to spending.
 
-High-income groups and graduates contribute significantly to revenue.
+### **Trends**
+- Seasonal spikes observed in **Q2 and Q4 revenues**.
+- Week-on-week analysis shows **growth opportunities and revenue dips**.
 
-Male customers dominate transactions compared to female customers.
+---
 
-Credit Card Usage
-Gold and Platinum card categories contribute higher revenue.
+## 🔹 Action Items
 
-Travel and grocery expenditures are top contributors to spending.
-
-Trends
-Seasonal spikes observed in Q2 and Q4 revenues.
-
-Week-on-week analysis shows growth opportunities and revenue dips.
-
-🔹 Action Items
 Based on insights, the following actions are recommended:
 
-Customer Retention – Focus marketing campaigns on high-value customer groups (30–50 yrs, graduates, high-income).
+- **Customer Retention** – Focus marketing campaigns on high-value customer groups (30–50 yrs, graduates, high-income).  
+- **Product Strategy** – Promote Platinum and Gold cards to maximize revenue.  
+- **Revenue Growth** – Encourage more transactions in low-performing categories (like utilities).  
+- **Customer Satisfaction** – Track satisfaction scores and reduce delinquent accounts to improve loyalty.  
+- **Seasonal Planning** – Leverage Q2 and Q4 peaks with targeted offers and cashback schemes.  
 
-Product Strategy – Promote Platinum and Gold cards to maximize revenue.
+---
 
-Revenue Growth – Encourage more transactions in low-performing categories (like utilities).
+## 🔹 Tools & Technologies
 
-Customer Satisfaction – Track satisfaction scores and reduce delinquent accounts to improve loyalty.
+- **Power BI** – Data cleaning, modeling, DAX measures, and visualization.  
+- **DAX (Data Analysis Expressions)** – Custom calculations and measures.  
+- **SQL** – Used for initial data preparation (views & queries).  
 
-Seasonal Planning – Leverage Q2 and Q4 peaks with targeted offers and cashback schemes.
+---
 
-🔹 Tools & Technologies
-Power BI – Data cleaning, modeling, DAX measures, and visualization.
+## 🔹 Final Dashboard Preview
 
-DAX (Data Analysis Expressions) – Custom calculations and measures.
+- **Credit Card Transaction Report** – Transaction KPIs, revenue by expenditure, card usage, quarterly & weekly analysis.  
+- **Credit Card Customer Report** – Customer demographics, income & education segmentation, satisfaction score analysis.  
 
-SQL – Used for initial data preparation (views & queries).
+---
 
-🔹 Final Dashboard Preview
-Credit Card Transaction Report – Transaction KPIs, revenue by expenditure, card usage, quarterly & weekly analysis.
-
-Credit Card Customer Report – Customer demographics, income & education segmentation, satisfaction score analysis.
-
-✨ This project demonstrates how business intelligence dashboards can convert raw financial data into meaningful insights that support data-driven decision-making.
-
-
-
-
-
-
-
-
+✨ This project demonstrates how business intelligence dashboards can convert raw financial data into meaningful insights that support **data-driven decision-making**.
