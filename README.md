@@ -41,47 +41,40 @@ The dashboard helps financial institutions and stakeholders:
 
 ### **Age Group Categorization**
 ```DAX
-AgeGroup = SWITCH(
-    TRUE(),
-    'cust_detail'[Customer_Age] < 30, "20-30",
-    'cust_detail'[Customer_Age] >= 30 && 'cust_detail'[Customer_Age] < 40, "30-40",
-    'cust_detail'[Customer_Age] >= 40 && 'cust_detail'[Customer_Age] < 50, "40-50",
-    'cust_detail'[Customer_Age] >= 50 && 'cust_detail'[Customer_Age] < 60, "50-60",
-    'cust_detail'[Customer_Age] >= 60, "60+",
-    "Unknown"
-)
-Income Group Categorization
-DAX
-Copy code
-IncomeGroup = SWITCH(
-    TRUE(),
-    'cust_detail'[Income] < 35000, "Low-Income",
-    'cust_detail'[Income] >= 35000 && 'cust_detail'[Income] < 70000, "Middle-Income",
-    'cust_detail'[Income] >= 70000, "High_Income",
-    "Unknown"
-)
-Revenue Calculation
-DAX
-Copy code
-Revenue = credit_card[Annual_Fees] + credit_card[Total_Trans_Amt] + credit_card[Interest_Earned]
-Week-on-Week Revenue Comparison
-DAX
-Copy code
-Current_Week_Revenue = CALCULATE(
-    SUM(credit_card[Revenue]),
-    FILTER(
-        ALL(credit_card),
-        credit_card[Week_num2] = MAX(credit_card[Week_num2])
-    )
-)
+                  AgeGroup = SWITCH(
+                      TRUE(),
+                      'cust_detail'[Customer_Age]<30,"20-30",
+                      'cust_detail'[Customer_Age]>=30 && cust_detail[Customer_Age]<40, "30-40",
+                      'cust_detail'[Customer_Age]>=40 && cust_detail[Customer_Age]<50, "40-50",
+                      'cust_detail'[Customer_Age]>=50 && cust_detail[Customer_Age]<60, "50-60",
+                      'cust_detail'[Customer_Age]>=60 ,"60+",
+                      "Unknown")
 
-Previous_Week_Revenue = CALCULATE(
-    SUM(credit_card[Revenue]),
-    FILTER(
-        ALL(credit_card),
-        credit_card[Week_num2] = MAX(credit_card[Week_num2]) - 1
-    )
-)
+Income Group Categorization
+                IncomeGroup = switch(
+                TRUE(),
+                'cust_detail'[Income]<35000,"Low-Income",
+                'cust_detail'[Income]>=35000 && 'cust_detail'[Income]<70000,"Middle-Income",
+                'cust_detail'[Income]>=70000, "High_Income",
+                "Unknown")
+
+
+Revenue Calculation
+              Revenue = credit_card[Annual_Fees] + credit_card[Total_Trans_Amt] + credit_card[Interest_Earned]
+
+Previous_Week_Revenue
+              Previous_Week_Revenue = CALCULATE(
+                   sum(credit_card[Revenue]),
+                   FILTER(
+                      ALL(credit_card),
+                      credit_card[Week_num2]=MAX(credit_card[Week_num2])-1))
+
+Current_Week_Revenue
+              Current_Week_Revenue = CALCULATE(
+                   sum(credit_card[Revenue]),
+                   FILTER(
+                      ALL(credit_card),
+                      credit_card[Week_num2]=MAX(credit_card[Week_num2])))
 ```
 ---
 
