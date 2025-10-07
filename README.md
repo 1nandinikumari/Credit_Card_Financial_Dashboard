@@ -26,7 +26,6 @@ The dashboard helps financial institutions and stakeholders:
   - Categorized Age Groups and Income Groups using `SWITCH` function.
   - Created a new column:  
     `Revenue = Total Transaction Amount + Interest + Annual Fee`.
-  - Created `Week Number 2` column for proper chronological tracking.
   - Built measures for `Current Week Revenue` and `Previous Week Revenue` to calculate growth.
 
 ### **3. Dashboard Design**
