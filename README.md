@@ -39,8 +39,8 @@ The dashboard helps financial institutions and stakeholders:
 
 ## 🔹 DAX Formulas Used
 
-### **Age Group Categorization**
 ```DAX
+Age Group Categorization
                   AgeGroup = SWITCH(
                       TRUE(),
                       'cust_detail'[Customer_Age]<30,"20-30",
